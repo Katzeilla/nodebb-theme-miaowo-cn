@@ -40,7 +40,13 @@
 						<!-- IF allowRegistration -->
 						<span>[[login:dont_have_account]] <a href="{config.relative_path}/register">[[register:register]]</a></span>
 						<!-- ENDIF allowRegistration -->
-						&nbsp; <a id="reset-link" href="{config.relative_path}/reset">[[login:forgot_password]]</a>
+						&nbsp; 
+
+	<!--
+	<a id="reset-link" href="{config.relative_path}/reset">[[login:forgot_password]]</a>
+	-->
+	<a id="reset-link" href="https://miaowo.github.io/docs/reset-password/">[[login:forgot_password]]</a>
+
 					</div>
 				</div>
 			</form>
