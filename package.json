@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "miaowo-theme",
   "version": "9.0.35",
   "nbbpm": {
     "compatibility": "^1.10.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "Theme for miaowo.org",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/katzeilla/miaowo-theme"
   },
   "keywords": [
     "nodebb",
@@ -32,6 +32,11 @@
       "name": "Barış Soner Uşaklı",
       "email": "baris@designcreateplay.com",
       "url": "https://github.com/barisusakli"
+    },
+    {
+      "name": "Katzeilla",
+      "email": "hello@katzeilla.org",
+      "url": "https://github.com/katzeilla"
     }
   ],
   "license": "BSD-2-Clause",
