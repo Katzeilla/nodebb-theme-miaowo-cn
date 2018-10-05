@@ -1,5 +1,5 @@
 {
-  "name": "miaowo-theme",
+  "name": "nodebb-miaowo-theme",
   "version": "9.0.35",
   "nbbpm": {
     "compatibility": "^1.10.0"
@@ -8,7 +8,7 @@
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/katzeilla/miaowo-theme"
+    "url": "https://github.com/katzeilla/nodebb-theme-miaowo"
   },
   "keywords": [
     "nodebb",
