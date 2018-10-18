@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-theme-miaowo",
+	"id": "nodebb-theme-miaowo-cn",
 	"library": "library.js",
 	"hooks": [
 		{ "hook": "filter:teasers.get", "method": "getTeasers" },
