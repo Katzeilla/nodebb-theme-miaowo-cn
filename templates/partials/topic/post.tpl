@@ -66,8 +66,15 @@
 
 		<!-- IF !reputation:disabled -->
 		<span class="votes">
-			<a component="post/upvote" href="#" class="<!-- IF posts.upvoted -->upvoted<!-- ENDIF posts.upvoted -->">
-				<i class="fa fa-chevron-up"></i>
+			<a component="post/upvote" href="#">
+			  <!-- IF !posts.upvoted -->
+			 	<i class="fa fa-heart-o"></i>
+			 <!-- ENDIF !posts.upvoted -->"
+			 
+			 <!-- IF posts.upvoted -->
+			        <i class="fa fa-heart voted"></i>
+			 <!-- ENDIF posts.upvoted -->"
+				
 			</a>
 
 			<span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
