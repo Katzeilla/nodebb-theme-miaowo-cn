@@ -69,14 +69,13 @@
 			<a component="post/upvote" href="#">
 			  <!-- IF !posts.upvoted -->
 			 	<i class="fa fa-heart-o"></i>
-			 <!-- ENDIF !posts.upvoted -->"
+			 <!-- ENDIF !posts.upvoted -->
 			 
 			 <!-- IF posts.upvoted -->
 			        <i class="fa fa-heart voted"></i>
-			 <!-- ENDIF posts.upvoted -->"
+			 <!-- ENDIF posts.upvoted -->
 				
 			</a>
-
 			<span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
 
 			<!-- IF !downvote:disabled -->
