@@ -66,16 +66,15 @@
 
 		<!-- IF !reputation:disabled -->
 		<span class="votes">
-			<a component="post/upvote" href="#">
-			  <!-- IF !posts.upvoted -->
-			 	<i class="fa fa-heart-o"></i>
-			 <!-- ENDIF !posts.upvoted -->
-			 
-			 <!-- IF posts.upvoted -->
-			        <i class="fa fa-heart voted"></i>
-			 <!-- ENDIF posts.upvoted -->
-				
+
+			<a component="post/upvoted" class="<!-- IF !posts.upvoted -->hidden<!-- ENDIF !posts.upvoted -->" href="#">
+			        <i class="fa fa-heart"></i>
 			</a>
+
+			<a component="post/upvote" class="<!-- IF posts.upvoted -->hidden<!-- ENDIF posts.upvoted -->" href="#">
+			 <i class="fa fa-heart-o"></i>
+			</a>
+
 			<span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
 
 			<!-- IF !downvote:disabled -->
